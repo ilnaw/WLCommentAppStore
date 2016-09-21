@@ -14,6 +14,7 @@
 		270B913E1D921C7A00DAE21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B913C1D921C7A00DAE21D /* LaunchScreen.storyboard */; };
 		270B91491D921C7A00DAE21D /* WLCommentAppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B91481D921C7A00DAE21D /* WLCommentAppStoreTests.swift */; };
 		270B91541D921C7A00DAE21D /* WLCommentAppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B91531D921C7A00DAE21D /* WLCommentAppStoreUITests.swift */; };
+		270B91621D921C9200DAE21D /* WLCommentAppstore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B91611D921C9200DAE21D /* WLCommentAppstore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		270B914F1D921C7A00DAE21D /* WLCommentAppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLCommentAppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B91531D921C7A00DAE21D /* WLCommentAppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLCommentAppStoreUITests.swift; sourceTree = "<group>"; };
 		270B91551D921C7A00DAE21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B91611D921C9200DAE21D /* WLCommentAppstore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLCommentAppstore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				270B91331D921C7A00DAE21D /* AppDelegate.swift */,
 				270B91351D921C7A00DAE21D /* ViewController.swift */,
+				270B91611D921C9200DAE21D /* WLCommentAppstore.swift */,
 				270B91371D921C7A00DAE21D /* Main.storyboard */,
 				270B913A1D921C7A00DAE21D /* Assets.xcassets */,
 				270B913C1D921C7A00DAE21D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				270B91361D921C7A00DAE21D /* ViewController.swift in Sources */,
 				270B91341D921C7A00DAE21D /* AppDelegate.swift in Sources */,
+				270B91621D921C9200DAE21D /* WLCommentAppstore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
